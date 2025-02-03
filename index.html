@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Coding 3</title>
+</head>
+<body>
+<h1>Coding 3 | MUST 4707</h1>
+
+<h2>JavaScript Class Creation: MIDIengine</h2>
+<p>In this assignment, you will develop a JavaScript class named <code>MIDIengine</code>. This class will represent a fictional MIDI engine with input and output functionalities. Your task is to define the class in the <code>script.js</code> file and ensure it meets the specified requirements.</p>
+
+<h3>Accessing the Assignment Materials</h3>
+<ol>
+    <li>Navigate to the assignment repository in the course <a href="https://github.com/MUST4707">GitHub organization</a>.</li>
+    <li>Click on the green <strong>Use this template</strong> button in the top right corner.</li>
+    <li>Choose 'Create a new repository'.</li>
+    <li>Set up the repo name under your account.</li>
+    <li>Click <strong>Create repository</strong>.</li>
+</ol>
+<p><em>You should now be at your own personal repository with the assignment materials.</em></p>
+<ol start="6">
+    <li>Click on the green <strong>&lt;&gt; Code</strong> button and select <strong>Open with GitHub Desktop</strong>.</li>
+    <li>Make sure the local path is where you would like to save this repo.</li>
+    <li>Hit <strong>Clone</strong>.</li>
+    <li>Open the folder in Visual Studio Code.</li>
+    <li>After working on your project, commit changes and push them to GitHub.</li>
+</ol>
+
+<h3>Objectives</h3>
+<p>Define a new class prototype called <code>MIDIengine</code> with the following features:</p>
+<h4>Constructor</h4>
+<ul>
+    <li>Takes two parameters: <code>input</code> and <code>output</code>.</li>
+    <li>Initializes properties:
+        <ul>
+            <li><code>MIDIin</code> (set to <code>input</code>)</li>
+            <li><code>MIDIout</code> (set to <code>output</code>)</li>
+            <li><code>running</code> (initially set to <code>false</code>)</li>
+        </ul>
+    </li>
+</ul>
+
+<h4>Methods</h4>
+<ul>
+    <li><code>enable(on_off)</code>: Turns the MIDI engine on or off and logs a message.</li>
+    <li><code>printInfo()</code>: Logs the input and output details.</li>
+</ul>
+
+<h3>Testing (Using VS Code and your Browser)</h3>
+<p>Run the following tests in the JavaScript console to verify functionality:</p>
+<ul>
+    <li><code>testMIDI instanceof MIDIengine</code>: Should return <code>true</code>.</li>
+    <li><code>testMIDI2 instanceof MIDIengine</code>: Should return <code>true</code>.</li>
+    <li><code>MIDIengine.length</code>: Should return <code>'2'</code>.</li>
+    <li><code>testMIDI.hasOwnProperty("MIDIin")</code>: Should return <code>true</code>.</li>
+    <li><code>testMIDI.hasOwnProperty("MIDIout")</code>: Should return <code>true</code>.</li>
+    <li><code>testMIDI.hasOwnProperty("running")</code>: Should return <code>true</code>.</li>
+    <li><code>typeof testMIDI.enable</code>: Should return <code>function</code>.</li>
+    <li><code>testMIDI.enable(true)</code>: Should log <code>The MIDI Engine is now on.</code></li>
+    <li><code>testMIDI !== testMIDI2</code>: Should return <code>true</code>.</li>
+</ul>
+
+<h3>Submission Steps</h3>
+<ol>
+    <li>Upload your <code>script.js</code> to the Canvas assignment.</li>
+</ol>
+
+</body>
+</html>
