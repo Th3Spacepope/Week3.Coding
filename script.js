@@ -10,7 +10,7 @@ class MIDIengine {
     if ((this.running = true)) {
       console.log(`The MIDI Engine is now on`);
     } else {
-      console.log("The MIDIengine is now off");
+      console.log("The MIDI Engine is now off");
     }
   }
   printInfo() {
